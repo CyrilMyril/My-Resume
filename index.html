@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cyril El Feghali | Cybersecurity Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Animated Background -->
+    <canvas id="matrix-bg"></canvas>
+    
+    <!-- Glitch Effect Overlay -->
+    <div class="glitch-overlay"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="glitch" data-text="C:/">C:/</span><span class="logo-name">Cyril_El_Feghali</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="terminal-window">
+                <div class="terminal-header">
+                    <span class="terminal-btn close"></span>
+                    <span class="terminal-btn minimize"></span>
+                    <span class="terminal-btn maximize"></span>
+                    <span class="terminal-title">cyril@cybersec:~$</span>
+                </div>
+                <div class="terminal-body">
+                    <p class="terminal-line">
+                        <span class="prompt">root@security:~$</span> 
+                        <span class="command">whoami</span>
+                    </p>
+                    <p class="terminal-output typing-effect">Cyril El Feghali</p>
+                    <p class="terminal-line">
+                        <span class="prompt">root@security:~$</span> 
+                        <span class="command">cat role.txt</span>
+                    </p>
+                    <p class="terminal-output typing-effect">Cybersecurity Solutions Developer</p>
+                    <p class="terminal-line">
+                        <span class="prompt">root@security:~$</span> 
+                        <span class="command">echo $SPECIALTY</span>
+                    </p>
+                    <p class="terminal-output typing-effect">Industrial Automation Security | Virtualized Test Environments</p>
+                    <p class="terminal-line">
+                        <span class="prompt">root@security:~$</span> 
+                        <span class="command cursor-blink">_</span>
+                    </p>
+                </div>
+            </div>
+            <div class="hero-cta">
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-terminal"></i> Initialize Contact
+                </a>
+                <a href="#experience" class="btn btn-secondary">
+                    <i class="fas fa-shield-alt"></i> View Security Profile
+                </a>
+            </div>
+            <div class="scroll-indicator">
+                <div class="mouse"></div>
+                <p>Scroll to decrypt</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="<About />">
+                <span>&lt;</span>About<span> /&gt;</span>
+            </h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-user-secret"></i></div>
+                    <div class="card-content">
+                        <h3>Profile</h3>
+                        <p>Electrical Engineering student at McGill University with cybersecurity and design verification experience. Specializes in virtualized test environments, system integration, and technical documentation for industrial automation products.</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-award"></i></div>
+                    <div class="card-content">
+                        <h3>Leadership</h3>
+                        <p>President of ECSESS (1200+ students) and Board Chair of EUS (4000+ engineering students). Dianne Ferguson Award recipient for exceptional engineering community involvement.</p>
+                    </div>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="card-content">
+                        <h3>Education</h3>
+                        <p>McGill University - B.Eng. Electrical Engineering (Expected 2026)<br>
+                        Collège Maristes Champville - Bac Français, Mention Très Bien</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="<Experience />">
+                <span>&lt;</span>Experience<span> /&gt;</span>
+            </h2>
+            <div class="timeline">
+                <!-- Schneider Electric -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2025 - Present</div>
+                        <h3>Cybersecurity Solutions Developer</h3>
+                        <h4>Schneider Electric | Montreal, QC</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Build and maintain virtualized test environments to validate cross-compatibility across 5+ Industrial Automation products</li>
+                            <li><i class="fas fa-check-circle"></i> Execute integration and system tests within VMs on ESXi and VMWare, documenting defects with reproducible steps</li>
+                            <li><i class="fas fa-check-circle"></i> Spearheaded development and maintenance of product documentation, ensuring compliance with standards</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">ESXi</span>
+                            <span class="tag">VMWare</span>
+                            <span class="tag">Cybersecurity</span>
+                            <span class="tag">Industrial Automation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- CS Group -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">April 2024 - August 2024</div>
+                        <h3>Software Verification Intern</h3>
+                        <h4>CS Group Canada - Sopra Steria | Montréal, QC</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Worked with DO-178C standards and created internal tool's proof-of-concept in Python</li>
+                            <li><i class="fas fa-check-circle"></i> Utilized ANSYS SCADE for model-based design and development</li>
+                            <li><i class="fas fa-check-circle"></i> Created and reviewed truth tables and test scripts for High-Level Requirements</li>
+                        </ul>
+                        <div class="tech-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">DO-178C</span>
+                            <span class="tag">ANSYS SCADE</span>
+                            <span class="tag">Verification</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Leadership -->
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">May 2025 - Present</div>
+                        <h3>President - McGill ECSE Student Society</h3>
+                        <h4>McGill University | Montreal, QC</h4>
+                        <ul>
+                            <li><i class="fas fa-check-circle"></i> Led strategic direction representing 1200+ electrical, computer, and software engineering students</li>
+                            <li><i class="fas fa-check-circle"></i> Served as primary liaison to faculty administration and Dean's Office</li>
+                            <li><i class="fas fa-check-circle"></i> Former VP External (2024) and U2 Electrical Eng. Class Representative (2023)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="<Projects />">
+                <span>&lt;</span>Projects<span> /&gt;</span>
+            </h2>
+            <div class="projects-grid">
+                <!-- Robert's Rules Tracker -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-gavel"></i>
+                        <h3>Robert's Rules Tracker</h3>
+                    </div>
+                    <p class="project-desc">Addressed lack of order during formal Council meetings by creating an intuitive, well-centered website accessible for anyone to use.</p>
+                    <div class="project-tech">
+                        <span>Web Development</span>
+                        <span>UI/UX</span>
+                        <span>Collaboration</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+
+                <!-- RC Car Arduino -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-car"></i>
+                        <h3>RC Car Arduino Project</h3>
+                    </div>
+                    <p class="project-desc">Enhanced 3D modeling and printing skills to design car chassis, tightly fitting all electronics. Integrated circuitry and learned Git version control.</p>
+                    <div class="project-tech">
+                        <span>Arduino</span>
+                        <span>3D Modeling</span>
+                        <span>Git</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Robohacks -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-robot"></i>
+                        <h3>Robohacks Submarine</h3>
+                    </div>
+                    <p class="project-desc">Engineered a submarine using syringe, camera, and accelerometer. Camera detected colors representing corals and mapped their coordinates.</p>
+                    <div class="project-tech">
+                        <span>Computer Vision</span>
+                        <span>Arduino</span>
+                        <span>Robotics</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                    </div>
+                </div>
+
+                <!-- Carbon Emissions Calculator -->
+                <div class="project-card">
+                    <div class="project-header">
+                        <i class="fas fa-leaf"></i>
+                        <h3>Zero Emissions Calculator</h3>
+                    </div>
+                    <p class="project-desc">Launched project centered around General Motors' "Zero Emissions" goal. Created website estimating user's carbon emissions from daily activities.</p>
+                    <div class="project-tech">
+                        <span>Web Dev</span>
+                        <span>Environmental Tech</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="<Skills />">
+                <span>&lt;</span>Skills<span> /&gt;</span>
+            </h2>
+            <div class="skills-grid">
+                <!-- Cybersecurity -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-shield-alt"></i>
+                        <h3>Cybersecurity</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Security Testing</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Vulnerability Assessment</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Industrial Automation Security</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Virtualization -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-server"></i>
+                        <h3>Virtualization & Systems</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>ESXi / VMWare</span>
+                                <span>93%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>System Integration</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 88%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Programming</h3>
+                    </div>
+                    <div class="skill-bars">
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Python</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>Java / Assembly</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>MATLAB / LTspice</span>
+                                <span>87%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 87%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Tools -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Tools & Frameworks</h3>
+                    </div>
+                    <div class="tech-tags">
+                        <span class="tag">ANSYS SCADE</span>
+                        <span class="tag">Arduino</span>
+                        <span class="tag">Git</span>
+                        <span class="tag">DO-178C</span>
+                        <span class="tag">MS Office</span>
+                        <span class="tag">3D Modeling</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title glitch" data-text="<Contact />">
+                <span>&lt;</span>Contact<span> /&gt;</span>
+            </h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-card">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email</h3>
+                        <a href="mailto:feghalicyril@gmail.com">feghalicyril@gmail.com</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fas fa-phone"></i>
+                        <h3>Phone</h3>
+                        <a href="tel:+15148120402">+1 514-812-0402</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-linkedin"></i>
+                        <h3>LinkedIn</h3>
+                        <a href="https://linkedin.com/in/cyril-el-feghali" target="_blank">cyril-el-feghali</a>
+                    </div>
+                    <div class="contact-card">
+                        <i class="fab fa-github"></i>
+                        <h3>GitHub</h3>
+                        <a href="https://github.com/your-username" target="_blank">@your-username</a>
+                    </div>
+                </div>
+                <div class="contact-terminal">
+                    <div class="terminal-window">
+                        <div class="terminal-header">
+                            <span class="terminal-btn close"></span>
+                            <span class="terminal-btn minimize"></span>
+                            <span class="terminal-btn maximize"></span>
+                            <span class="terminal-title">contact.sh</span>
+                        </div>
+                        <div class="terminal-body">
+                            <p class="terminal-line">
+                                <span class="prompt">$</span> 
+                                <span class="command">./send_message.sh</span>
+                            </p>
+                            <p class="terminal-output">Initializing secure connection...</p>
+                            <p class="terminal-output">Encryption: AES-256 ✓</p>
+                            <p class="terminal-output">Ready to receive message...</p>
+                            <form class="contact-form">
+                                <input type="text" placeholder="Name" required>
+                                <input type="email" placeholder="Email" required>
+                                <textarea placeholder="Message" rows="4" required></textarea>
+                                <button type="submit" class="btn btn-primary">
+                                    <i class="fas fa-paper-plane"></i> Transmit Message
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Cyril El Feghali. All rights reserved.</p>
+            <p class="footer-text">
+                <span class="typing">Securing the future, one line of code at a time...</span>
+            </p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="particles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
