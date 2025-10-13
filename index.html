@@ -39,77 +39,92 @@
     <!-- Hero Section -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <div class="terminal-window">
-                <div class="terminal-header">
-                    <span class="terminal-btn close"></span>
-                    <span class="terminal-btn minimize"></span>
-                    <span class="terminal-btn maximize"></span>
-                    <span class="terminal-title">cyril@cybersec:~$</span>
+            <div class="hero-grid">
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <span class="terminal-btn close"></span>
+                        <span class="terminal-btn minimize"></span>
+                        <span class="terminal-btn maximize"></span>
+                        <span class="terminal-title">cyril@cybersec:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p class="terminal-line">
+                            <span class="prompt">$</span> 
+                            <span class="command">whoami</span>
+                        </p>
+                        <p class="terminal-output typing-effect">Cyril El Feghali</p>
+                        
+                        <p class="terminal-line">
+                            <span class="prompt">$</span> 
+                            <span class="command">cat role.txt</span>
+                        </p>
+                        <p class="terminal-output typing-effect">Cybersecurity Solutions Developer</p>
+                        
+                        <p class="terminal-line">
+                            <span class="prompt">$</span> 
+                            <span class="command">cat specialty.txt</span>
+                        </p>
+                        <p class="terminal-output typing-effect">Industrial Automation Security</p>
+                        <p class="terminal-output typing-effect">Virtualized Test Environments</p>
+                        
+                        <p class="terminal-line">
+                            <span class="prompt">$</span> 
+                            <span class="command cursor-blink">_</span>
+                        </p>
+                    </div>
                 </div>
-                <div class="terminal-body">
-                    <p class="terminal-line">
-                        <span class="prompt">root@security:~$</span> 
-                        <span class="command">whoami</span>
-                    </p>
-                    <p class="terminal-output typing-effect">Cyril El Feghali</p>
-                    <p class="terminal-line">
-                        <span class="prompt">root@security:~$</span> 
-                        <span class="command">cat role.txt</span>
-                    </p>
-                    <p class="terminal-output typing-effect">Cybersecurity Solutions Developer</p>
-                    <p class="terminal-line">
-                        <span class="prompt">root@security:~$</span> 
-                        <span class="command">echo $SPECIALTY</span>
-                    </p>
-                    <p class="terminal-output typing-effect">Industrial Automation Security | Virtualized Test Environments</p>
-                    <p class="terminal-line">
-                        <span class="prompt">root@security:~$</span> 
-                        <span class="command cursor-blink">_</span>
-                    </p>
+                <div class="hero-image">
+                    <img src="assets/profile-image.jpg" alt="Cyril El Feghali">
+                    <div class="image-border"></div>
                 </div>
             </div>
+            <!-- Buttons OUTSIDE the hero-grid -->
             <div class="hero-cta">
                 <a href="#contact" class="btn btn-primary">
-                    <i class="fas fa-terminal"></i> Initialize Contact
+                    <i class="fas fa-terminal"></i> Get In Touch
                 </a>
                 <a href="#experience" class="btn btn-secondary">
-                    <i class="fas fa-shield-alt"></i> View Security Profile
+                    <i class="fas fa-shield-alt"></i> View Experience
                 </a>
             </div>
             <div class="scroll-indicator">
                 <div class="mouse"></div>
-                <p>Scroll to decrypt</p>
+                <p>Scroll to explore</p>
             </div>
         </div>
     </section>
 
+
     <!-- About Section -->
     <section id="about" class="about">
         <div class="container">
-            <h2 class="section-title glitch" data-text="<About />">
-                <span>&lt;</span>About<span> /&gt;</span>
-            </h2>
+            <h2 class="section-title">About Me</h2>
+            <div class="about-intro">
+                <p><Electrical Engineering >student at McGill University with Cyber Security and design verification experience at Schneider Electric and CS GROUP Canada. Specializes in virtualized test environments, system integration, and technical documentation for industrial automation products.</p>
+                <p>Proven leader as President of ECSESS and Board Chair of EUS, managing strategic initiatives for 4,000+ students. Combines technical proficiency in security testing, verification methodologies, and 3D modeling with strong communication and stakeholder management skills.</p>
+                <p><strong>Dianne Ferguson Award</strong> recipient for exceptional engineering community involvement.</p>
+            </div>
             <div class="about-grid">
                 <div class="about-card">
                     <div class="card-icon"><i class="fas fa-user-secret"></i></div>
                     <div class="card-content">
-                        <h3>Profile</h3>
-                        <p>Electrical Engineering student at McGill University with cybersecurity and design verification experience. Specializes in virtualized test environments, system integration, and technical documentation for industrial automation products.</p>
+                        <h3>Cybersecurity Focus</h3>
+                        <p>Specializing in industrial automation security, virtualized test environments, and security infrastructure including Firewalls, VPN, IDS/IPS, and RDP.</p>
                     </div>
                 </div>
                 <div class="about-card">
                     <div class="card-icon"><i class="fas fa-award"></i></div>
                     <div class="card-content">
                         <h3>Leadership</h3>
-                        <p>President of ECSESS (1200+ students) and Board Chair of EUS (4000+ engineering students). Dianne Ferguson Award recipient for exceptional engineering community involvement.</p>
+                        <p>President of ECSESS (1200+ students) and Board Chair of EUS (4000+ engineering students). Former VP External and Class Representative.</p>
                     </div>
                 </div>
                 <div class="about-card">
                     <div class="card-icon"><i class="fas fa-graduation-cap"></i></div>
                     <div class="card-content">
                         <h3>Education</h3>
-                        <p>McGill University - B.Eng. Electrical Engineering (Expected 2026)<br>
-                        Collège Maristes Champville - Bac Français, Mention Très Bien</p>
+                        <p><strong>McGill University</strong> - B.Eng. Electrical Engineering (Expected April 2026)<br>
+                        <strong>Collège Maristes Champville</strong> - Bac Français, Mention Très Bien (June 2021)</p>
                     </div>
                 </div>
             </div>
@@ -119,64 +134,147 @@
     <!-- Experience Section -->
     <section id="experience" class="experience">
         <div class="container">
-            <h2 class="section-title glitch" data-text="<Experience />">
-                <span>&lt;</span>Experience<span> /&gt;</span>
-            </h2>
-            <div class="timeline">
-                <!-- Schneider Electric -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">May 2025 - Present</div>
-                        <h3>Cybersecurity Solutions Developer</h3>
-                        <h4>Schneider Electric | Montreal, QC</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Build and maintain virtualized test environments to validate cross-compatibility across 5+ Industrial Automation products</li>
-                            <li><i class="fas fa-check-circle"></i> Execute integration and system tests within VMs on ESXi and VMWare, documenting defects with reproducible steps</li>
-                            <li><i class="fas fa-check-circle"></i> Spearheaded development and maintenance of product documentation, ensuring compliance with standards</li>
-                        </ul>
-                        <div class="tech-tags">
-                            <span class="tag">ESXi</span>
-                            <span class="tag">VMWare</span>
-                            <span class="tag">Cybersecurity</span>
-                            <span class="tag">Industrial Automation</span>
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-category">
+                <h3 class="category-title">Work Experience</h3>
+                <div class="timeline">
+                    <!-- Schneider Electric -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">May 2025 - Present</div>
+                            <h3>Cybersecurity Solutions Developer</h3>
+                            <h4>Schneider Electric | Montreal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Build and maintain virtualized test environments to validate cross-compatibility across 5+ Industrial Automation products, while ensuring data loss prevention</li>
+                                <li><i class="fas fa-check-circle"></i> Execute integration and system tests within VMs on ESXi and VMWare, document defects with reproducible steps, logs, and environment details</li>
+                                <li><i class="fas fa-check-circle"></i> Shown great understanding of technology infrastructures using Firewalls, VPN, IDS/IPS, and RDP</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">ESXi</span>
+                                <span class="tag">VMWare</span>
+                                <span class="tag">Cybersecurity</span>
+                                <span class="tag">Firewalls</span>
+                                <span class="tag">VPN</span>
+                                <span class="tag">IDS/IPS</span>
+                            </div>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/schneider-electric.png" alt="Schneider Electric">
+                        </div>
+                    </div>
+
+                    <!-- CS Group -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">April 2024 - August 2024</div>
+                            <h3>Software Verification Intern</h3>
+                            <h4>CS Group Canada - Sopra Steria | Montréal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Worked with DO-178C standards and initiated an internal tool's proof-of-concept on Python</li>
+                                <li><i class="fas fa-check-circle"></i> Developed and tested control logic for Pratt & Whitney engines using ANSYS SCADE</li>
+                                <li><i class="fas fa-check-circle"></i> Created and reviewed 50+ truth tables and test scripts for various High-Level Requirements</li>
+                            </ul>
+                            <div class="tech-tags">
+                                <span class="tag">Python</span>
+                                <span class="tag">DO-178C</span>
+                                <span class="tag">ANSYS SCADE</span>
+                                <span class="tag">Pratt & Whitney</span>
+                            </div>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/cs_group.jpeg" alt="CS Group Canada">
+                        </div>
+                    </div>
+
+                    <!-- Mezzmiz -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">March 2022 - May 2022</div>
+                            <h3>Junior Cook</h3>
+                            <h4>Mezzmiz, Timeout Market | Montréal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Assisted in preparing and plating dishes in a fast-paced kitchen, ensuring high quality and consistency</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/mezzmiz.jpg" alt="Mezzmiz Timeout Market">
                         </div>
                     </div>
                 </div>
+            </div>
 
-                <!-- CS Group -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">April 2024 - August 2024</div>
-                        <h3>Software Verification Intern</h3>
-                        <h4>CS Group Canada - Sopra Steria | Montréal, QC</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Worked with DO-178C standards and created internal tool's proof-of-concept in Python</li>
-                            <li><i class="fas fa-check-circle"></i> Utilized ANSYS SCADE for model-based design and development</li>
-                            <li><i class="fas fa-check-circle"></i> Created and reviewed truth tables and test scripts for High-Level Requirements</li>
-                        </ul>
-                        <div class="tech-tags">
-                            <span class="tag">Python</span>
-                            <span class="tag">DO-178C</span>
-                            <span class="tag">ANSYS SCADE</span>
-                            <span class="tag">Verification</span>
+            <!-- Volunteer Experience -->
+            <div class="experience-category">
+                <h3 class="category-title">Leadership & Volunteer Experience</h3>
+                <div class="timeline">
+                    <!-- ECSESS President -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">May 2025 - Present</div>
+                            <h3>President</h3>
+                            <h4>McGill ECSE Student Society | Montreal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Led strategic direction and operations representing 1200+ electrical, computer, and software engineering students, overseeing executive team coordination and budget management</li>
+                                <li><i class="fas fa-check-circle"></i> Served as primary liaison to faculty administration and Dean's Office</li>
+                                <li><i class="fas fa-check-circle"></i> Former VP External (2024) and U2 Electrical Eng. Class Representative (2023)</li>
+                            </ul>
                         </div>
                     </div>
-                </div>
 
-                <!-- Leadership -->
-                <div class="timeline-item">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <div class="timeline-date">May 2025 - Present</div>
-                        <h3>President - McGill ECSE Student Society</h3>
-                        <h4>McGill University | Montreal, QC</h4>
-                        <ul>
-                            <li><i class="fas fa-check-circle"></i> Led strategic direction representing 1200+ electrical, computer, and software engineering students</li>
-                            <li><i class="fas fa-check-circle"></i> Served as primary liaison to faculty administration and Dean's Office</li>
-                            <li><i class="fas fa-check-circle"></i> Former VP External (2024) and U2 Electrical Eng. Class Representative (2023)</li>
-                        </ul>
+                    <!-- EUS Board Chair -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">November 2024 - June 2025</div>
+                            <h3>Chair</h3>
+                            <h4>McGill EUS Board of Governors | Montreal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Oversee strategic decisions, maintaining cohesion, and ensuring the legal and financial stability of the society, which represents 4,000 engineering students and various design teams and clubs</li>
+                                <li><i class="fas fa-check-circle"></i> Led and participated in key subcommittee initiatives, including policy updates, budget reviews, and special projects aimed at enhancing student resources and spaces within the EUS</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/bog.png" alt="EUS Board of Governors">
+                        </div>
+                    </div>
+
+                    <!-- The Factory Manager -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">September 2023 - April 2025</div>
+                            <h3>Manager</h3>
+                            <h4>The Factory at McGill | Montreal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Oversaw operations, provided guidance and ensured student safety using equipment and machines</li>
+                                <li><i class="fas fa-check-circle"></i> Managed and tracked rented inventory, including Arduino boards, Raspberry Pi units, motors, etc.</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/factory.png" alt="The Factory - McGill">
+                        </div>
+                    </div>
+
+                    <!-- Frosh Coordinator -->
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-date">June 2023 - August 2023</div>
+                            <h3>Coordinator of Leaders and Staff</h3>
+                            <h4>McGill Engineering Frosh | Montreal, QC, Canada</h4>
+                            <ul>
+                                <li><i class="fas fa-check-circle"></i> Directed the recruitment and management of 150 members, planned schedules, and delegated tasks</li>
+                                <li><i class="fas fa-check-circle"></i> Conducted training sessions for staff across multiple faculties</li>
+                                <li><i class="fas fa-check-circle"></i> Ensured the safety of 650+ students while holding a successful event in a high-pressure environment</li>
+                            </ul>
+                        </div>
+                        <div class="timeline-image">
+                            <img src="assets/frosh.jpg" alt="McGill Engineering Frosh">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -186,25 +284,35 @@
     <!-- Projects Section -->
     <section id="projects" class="projects">
         <div class="container">
-            <h2 class="section-title glitch" data-text="<Projects />">
-                <span>&lt;</span>Projects<span> /&gt;</span>
-            </h2>
+            <h2 class="section-title">Projects & Achievements</h2>
+            
+            <!-- Technical Projects -->
+            <h3 class="subsection-title">Technical Projects</h3>
             <div class="projects-grid">
                 <!-- Robert's Rules Tracker -->
                 <div class="project-card">
                     <div class="project-header">
                         <i class="fas fa-gavel"></i>
                         <h3>Robert's Rules Tracker</h3>
+                        <span class="project-date">January 2025</span>
                     </div>
-                    <p class="project-desc">Addressed lack of order during formal Council meetings by creating an intuitive, well-centered website accessible for anyone to use.</p>
+                    <p class="project-desc">Noticed a lack of order during formal Council meetings and decided to address the issue.</p>
+                    <ul class="project-list">
+                        <li>Collaborated on the project with a friend, implementing all necessary features</li>
+                        <li>Ensured a clean, well-centred, and intuitive website, to make it accessible for anyone to use</li>
+                    </ul>
                     <div class="project-tech">
                         <span>Web Development</span>
                         <span>UI/UX</span>
                         <span>Collaboration</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://mughh.github.io/RobertRuler/" class="project-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                        <a href="https://github.com/Mughh/RobertRuler" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
 
@@ -213,15 +321,23 @@
                     <div class="project-header">
                         <i class="fas fa-car"></i>
                         <h3>RC Car Arduino Project</h3>
+                        <span class="project-date">July 2023</span>
                     </div>
-                    <p class="project-desc">Enhanced 3D modeling and printing skills to design car chassis, tightly fitting all electronics. Integrated circuitry and learned Git version control.</p>
+                    <p class="project-desc">Summer Project</p>
+                    <ul class="project-list">
+                        <li>Enhanced 3D modelling and printing skills to design the car's chassis, tightly fitting all electronics</li>
+                        <li>Spearheaded the design and integration of the circuitry, as well as learning how to use Git</li>
+                    </ul>
                     <div class="project-tech">
                         <span>Arduino</span>
                         <span>3D Modeling</span>
                         <span>Git</span>
+                        <span>Circuit Design</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="https://github.com/notkaramel/ArduinoPS4Car" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
 
@@ -230,15 +346,25 @@
                     <div class="project-header">
                         <i class="fas fa-robot"></i>
                         <h3>Robohacks Submarine</h3>
+                        <span class="project-date">October 2023</span>
                     </div>
-                    <p class="project-desc">Engineered a submarine using syringe, camera, and accelerometer. Camera detected colors representing corals and mapped their coordinates.</p>
+                    <p class="project-desc">McGill Robotics Hackathon</p>
+                    <ul class="project-list">
+                        <li>Engineered a submarine using a syringe, camera, and accelerometer</li>
+                        <li>Camera was used to detect colors representing corals and map their coordinates</li>
+                    </ul>
                     <div class="project-tech">
                         <span>Computer Vision</span>
                         <span>Arduino</span>
                         <span>Robotics</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/posts/cyril-el-feghali_sdg14-sustainability-team-activity-7045566422793506816-QX5s?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT2zbwBE2kPzAucreDLBgIU0uOJgGmYDGw" class="project-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                        <a href="https://github.com/notkaramel/cybertank" class="project-btn project-btn-secondary" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
                     </div>
                 </div>
 
@@ -247,27 +373,95 @@
                     <div class="project-header">
                         <i class="fas fa-leaf"></i>
                         <h3>Zero Emissions Calculator</h3>
+                        <span class="project-date">February 2023</span>
                     </div>
-                    <p class="project-desc">Launched project centered around General Motors' "Zero Emissions" goal. Created website estimating user's carbon emissions from daily activities.</p>
+                    <p class="project-desc">McWics McGill - Hack McWiCS</p>
+                    <ul class="project-list">
+                        <li>Launched a project centered around General Motors' goal for "Zero Emissions"</li>
+                        <li>Launched a website that estimates the user's carbon emissions depending on their day-to-day activities</li>
+                    </ul>
                     <div class="project-tech">
-                        <span>Web Dev</span>
+                        <span>Web Development</span>
                         <span>Environmental Tech</span>
+                        <span>General Motors</span>
                     </div>
                     <div class="project-links">
-                        <a href="#" class="project-link"><i class="fab fa-github"></i></a>
-                        <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                        <a href="https://www.linkedin.com/posts/cyril-el-feghali_generalmotors-googlecloud-morganstanley-activity-7029258955663032320-zCMO?utm_source=share&utm_medium=member_desktop&rcm=ACoAADT2zbwBE2kPzAucreDLBgIU0uOJgGmYDGw" class="project-btn" target="_blank">
+                            <i class="fas fa-external-link-alt"></i> View Project
+                        </a>
+                </div>
+                </div>
+            </div>
+            
+            <!-- Awards & Achievements -->
+            <h3 class="subsection-title">Awards & Achievements</h3>
+            
+            <!-- Dianne Ferguson Award Feature -->
+                <br>
+                <div class="featured-award">
+                    <div class="featured-award-content">
+                        <div class="featured-award-badge">
+                            <i class="fas fa-medal"></i>
+                        </div>
+                        <div class="featured-award-text">
+                            <h3>Dianne Ferguson Award Winner</h3>
+                            <p class="award-value">$1,000 Award by EUS</p>
+                            <p class="award-description">This prestigious award recognizes exceptional involvement within the McGill Engineering Community. Given annually to one student who demonstrates outstanding leadership, dedication, and impact across engineering student organizations and initiatives.</p>
+                            <div class="award-highlights">
+                                <div class="highlight-item">
+                                    <i class="fas fa-star"></i>
+                                    <span>Leadership Excellence</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Community Impact</span>
+                                </div>
+                                <div class="highlight-item">
+                                    <i class="fas fa-trophy"></i>
+                                    <span>Engineering Recognition</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="featured-award-image">
+                            <img src="assets/dianne.jpg" alt="Dianne Ferguson Award">
+                            <div class="award-glow"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="achievements-grid">
+                    <div class="achievement-card">
+                        <div class="achievement-icon"><i class="fas fa-trophy"></i></div>
+                        <h4>MUN Awards</h4>
+                        <p class="achievement-date">March 2021</p>
+                        <p>Poli-Sci Campus, Menton, France & Brummana High School, Lebanon</p>
+                        <ul>
+                            <li>Mediterranean MUN Diplomacy Award: Second Place</li>
+                            <li>BHS MUN Secretary General Award: First Place</li>
+                        </ul>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon"><i class="fas fa-music"></i></div>
+                        <h4>Piano Certification</h4>
+                        <p class="achievement-date">June 2011</p>
+                        <p>Grade 1-6: London College of Music Examination</p>
+                    </div>
+
+                    <div class="achievement-card">
+                        <div class="achievement-icon"><i class="fas fa-campground"></i></div>
+                        <h4>Lebanese Scout Leader</h4>
+                        <p class="achievement-date">December 2019</p>
+                        <p>Scout du Liban</p>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
     <!-- Skills Section -->
     <section id="skills" class="skills">
         <div class="container">
-            <h2 class="section-title glitch" data-text="<Skills />">
-                <span>&lt;</span>Skills<span> /&gt;</span>
-            </h2>
+            <h2 class="section-title">Skills & Technologies</h2>
             <div class="skills-grid">
                 <!-- Cybersecurity -->
                 <div class="skill-category">
@@ -287,7 +481,16 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Vulnerability Assessment</span>
+                                <span>Firewalls & VPN</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>IDS/IPS Systems</span>
                                 <span>90%</span>
                             </div>
                             <div class="skill-progress">
@@ -297,25 +500,34 @@
                         <div class="skill-bar">
                             <div class="skill-info">
                                 <span>Industrial Automation Security</span>
-                                <span>92%</span>
+                                <span>93%</span>
                             </div>
                             <div class="skill-progress">
-                                <div class="skill-fill" style="width: 92%"></div>
+                                <div class="skill-fill" style="width: 93%"></div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Virtualization -->
+                <!-- Virtualization & Systems -->
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-server"></i>
-                        <h3>Virtualization & Systems</h3>
+                        <h3>Virtualization</h3>
                     </div>
                     <div class="skill-bars">
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>ESXi / VMWare</span>
+                                <span>ESXi</span>
+                                <span>93%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 93%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>VMWare</span>
                                 <span>93%</span>
                             </div>
                             <div class="skill-progress">
@@ -352,7 +564,7 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>Java / Assembly</span>
+                                <span>Java</span>
                                 <span>85%</span>
                             </div>
                             <div class="skill-progress">
@@ -361,7 +573,16 @@
                         </div>
                         <div class="skill-bar">
                             <div class="skill-info">
-                                <span>MATLAB / LTspice</span>
+                                <span>Assembly</span>
+                                <span>82%</span>
+                            </div>
+                            <div class="skill-progress">
+                                <div class="skill-fill" style="width: 82%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-info">
+                                <span>MATLAB</span>
                                 <span>87%</span>
                             </div>
                             <div class="skill-progress">
@@ -371,19 +592,37 @@
                     </div>
                 </div>
 
-                <!-- Tools -->
+                <!-- Tools & Other -->
                 <div class="skill-category">
                     <div class="category-header">
                         <i class="fas fa-tools"></i>
                         <h3>Tools & Frameworks</h3>
                     </div>
-                    <div class="tech-tags">
+                    <div class="tech-tags-list">
                         <span class="tag">ANSYS SCADE</span>
                         <span class="tag">Arduino</span>
                         <span class="tag">Git</span>
                         <span class="tag">DO-178C</span>
                         <span class="tag">MS Office</span>
+                        <span class="tag">LTspice</span>
                         <span class="tag">3D Modeling</span>
+                        <span class="tag">Raspberry Pi</span>
+                    </div>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category">
+                    <div class="category-header">
+                        <i class="fas fa-users"></i>
+                        <h3>Professional Skills</h3>
+                    </div>
+                    <div class="tech-tags-list">
+                        <span class="tag">Project Management</span>
+                        <span class="tag">Troubleshooting</span>
+                        <span class="tag">Problem-solving</span>
+                        <span class="tag">Administrative Tasks</span>
+                        <span class="tag">Leadership</span>
+                        <span class="tag">Team Coordination</span>
                     </div>
                 </div>
             </div>
@@ -393,9 +632,7 @@
     <!-- Contact Section -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2 class="section-title glitch" data-text="<Contact />">
-                <span>&lt;</span>Contact<span> /&gt;</span>
-            </h2>
+            <h2 class="section-title">Get In Touch</h2>
             <div class="contact-grid">
                 <div class="contact-info">
                     <div class="contact-card">
@@ -409,6 +646,11 @@
                         <a href="tel:+15148120402">+1 514-812-0402</a>
                     </div>
                     <div class="contact-card">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Location</h3>
+                        <p>Montreal, QC, Canada</p>
+                    </div>
+                    <div class="contact-card">
                         <i class="fab fa-linkedin"></i>
                         <h3>LinkedIn</h3>
                         <a href="https://linkedin.com/in/cyril-el-feghali" target="_blank">cyril-el-feghali</a>
@@ -416,49 +658,17 @@
                     <div class="contact-card">
                         <i class="fab fa-github"></i>
                         <h3>GitHub</h3>
-                        <a href="https://github.com/CyrilMyril" target="_blank">@CyrilMyril</a>
+                        <a href="https://github.com/CyrilMyril" target="_blank">CyrilMyril</a>
                     </div>
-                </div>
-                <div class="contact-terminal">
-                    <div class="terminal-window">
-                        <div class="terminal-header">
-                            <span class="terminal-btn close"></span>
-                            <span class="terminal-btn minimize"></span>
-                            <span class="terminal-btn maximize"></span>
-                            <span class="terminal-title">contact.sh</span>
-                        </div>
-                        <div class="terminal-body">
-                            <p class="terminal-line">
-                                <span class="prompt">$</span> 
-                                <span class="command">./send_message.sh</span>
-                            </p>
-                            <p class="terminal-output">Initializing secure connection...</p>
-                            <p class="terminal-output">Encryption: AES-256 ✓</p>
-                            <p class="terminal-output">Ready to receive message...</p>
-                            <form class="contact-form">
-                                <input type="text" placeholder="Name" required>
-                                <input type="email" placeholder="Email" required>
-                                <textarea placeholder="Message" rows="4" required></textarea>
-                                <button type="submit" class="btn btn-primary">
-                                    <i class="fas fa-paper-plane"></i> Transmit Message
-                                </button>
-                            </form>
-                        </div>
+                    <div class="contact-card">
+                        <i class="fas fa-globe"></i>
+                        <h3>Website</h3>
+                        <a href="https://cyrilmyril.github.io/My-Resume/" target="_blank">cyrilmyril.github.io</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <p>&copy; 2025 Cyril El Feghali. All rights reserved.</p>
-            <p class="footer-text">
-                <span class="typing">Securing the future, one line of code at a time...</span>
-            </p>
-        </div>
-    </footer>
 
     <!-- Scripts -->
     <script src="particles.js"></script>
