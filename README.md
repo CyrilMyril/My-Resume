@@ -1,6 +1,6 @@
-# 🔒 Cyril El Feghali - Cybersecurity Portfolio
+# 🔒 Cyril El Feghali - Portfolio
 
-A modern, animated portfolio website showcasing cybersecurity expertise and engineering projects. Built with vanilla JavaScript, featuring matrix rain effects, terminal-style interfaces, and smooth animations.
+My modern portfolio website showcasing my expertise and engineering projects. Built with vanilla JavaScript, featuring matrix rain effects, terminal-style interfaces, and smooth animations.
 
 **Live Site:** [cyrilmyril.github.io/My-Resume/](https://cyrilmyril.github.io/My-Resume/)
 
