@@ -42,7 +42,6 @@ My modern portfolio website showcasing my expertise and engineering projects. Bu
 **Cyril El Feghali**  
 📧 feghalicyril@gmail.com  
 🔗 [LinkedIn](https://linkedin.com/in/cyril-el-feghali)  
-📱 +1 514-812-0402
 
 ---
 
